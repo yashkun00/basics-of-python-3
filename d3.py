@@ -18,10 +18,10 @@
         def add(lst):
           lst.append(3)
 
-        a = [1, 2]
-        add(a)
+        x = [1, 2]
+        add(x)
 
-    print(a)  # [1,2,3]
+    print(x)  # [1,2,3]
 
 ✅ Local variable lifetime
      It dies when the function ends
