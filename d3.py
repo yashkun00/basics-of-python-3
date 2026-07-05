@@ -1,10 +1,10 @@
 # basics-python-3
 
 ✅ Variables and references
-     a = [1, 2]
+     a = [1, 4]
       b = a
     b.append(3)
-    print(a)  # [1,2,3]
+    print(a)  # [1,4,3]
   {=} creates another label for the same obj
 
 ✅ Mutable vs immutable objects
