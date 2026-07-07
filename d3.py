@@ -1,10 +1,10 @@
 # basics-python-3
 
 ✅ Variables and references
-     a = [1, 4]
+     a = [1, 2]
       b = a
     b.append(3)
-    print(a)  # [1,4,3]
+    print(a)  # [1,2,3]
   {=} creates another label for the same obj
 
 ✅ Mutable vs immutable objects
@@ -16,12 +16,12 @@
 ✅ Function parameter passing
     Functions receive references to objects, not copies.
         def add(lst):
-          lst.append(3)
+          lst.append(5)
 
         x = [1, 2]
         add(x)
 
-    print(x)  # [1,2,3]
+    print(x)  # [1,2,5]
 
 ✅ Local variable lifetime
      It dies when the function ends
