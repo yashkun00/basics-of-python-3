@@ -16,12 +16,12 @@
 ✅ Function parameter passing
     Functions receive references to objects, not copies.
         def add(lst):
-          lst.append(4)
+          lst.append(3)
 
         x = [1, 2]
         add(x)
 
-    print(x)  # [1,2,4]
+    print(x)  # [1,2,3]
 
 ✅ Local variable lifetime
      It dies when the function ends
