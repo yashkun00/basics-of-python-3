@@ -6,13 +6,18 @@
     b.append(3)
     print(a)  # [1,2,3]
   {=} creates another label for the same obj
+# ------x----x----
 
 ✅ Mutable vs immutable objects
   Immutable (int, str, tuple)
   Mutable (list, dict, set)
     Immutable → creates new object.
     Mutable → modifies existing object.
-      
+
+         
+# --------x------x--------
+
+         
 ✅ Function parameter passing
     Functions receive references to objects, not copies.
         def add(lst):
@@ -23,8 +28,13 @@
 
     print(x)  # [1,2,3]
 
+# -----x-----x--------
+
 ✅ Local variable lifetime
      It dies when the function ends
+
+# -----x-----x--------
+
 
 ✅ The mutable default argument trap
     Default mutable objects are created once, not on every call.
@@ -34,3 +44,6 @@
 
       print(add(1))  # [1]
       print(add(2))  # [1,2]
+
+
+# -----x-----x--------
