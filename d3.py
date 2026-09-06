@@ -6,7 +6,7 @@
     b.append(4)
     print(a)  # [1,2,4]
   {=} creates another label for the same obj
-----
+#-----x---------x---------x
 
 ✅ Mutable vs immutable objects
   Immutable (int, str, tuple)
