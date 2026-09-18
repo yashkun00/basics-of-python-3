@@ -1,5 +1,3 @@
-# basics-python-3
-
 ✅ Variables and references
      a = [1, 2]
       b = a
