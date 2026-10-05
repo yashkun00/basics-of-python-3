@@ -1,7 +1,7 @@
 ✅ Variables and references
      a = [1, 2]
       b = a
-    b.append(3)
+    b.append(4)
     print(a)  # [1,2,4]
   {=} creates another label for the same obj
 
